@@ -1,0 +1,51 @@
+.welcom_page {
+    background: linear-gradient(180deg, #1F2A63 0%, #17002F 100%);
+
+    .content {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .title {
+        padding-top: 64px;
+        font-size: 72px;
+        line-height: 84px;
+        width: 560px;
+        height: 252px;
+    }
+
+    .sub_title {
+        margin-top: 120px;
+        width: 515px;
+        height: 111px;
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    button {
+        border: 1mm solid orange;
+        margin-top: 64px;
+        margin-bottom: 64px;
+        padding: 10px 60px;
+        background-color: orange;
+        border-radius: 11px;
+        cursor: pointer;
+        transition: 0.2s;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 7px 0 darkorange;
+        }
+
+        &:active {
+            transform: translateY(-2px);
+            box-shadow: 0 3px 0 darkorange;
+        }
+    }
+
+    .banner {
+        position: absolute;
+        left: 647px;
+        top: 100px;
+    }
+}
