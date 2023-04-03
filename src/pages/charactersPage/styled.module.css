@@ -1,0 +1,30 @@
+.page_item {
+}
+
+.page_link {
+    width: 30px;
+    border: 1px grey solid;
+    border-radius: 8px;
+    display: flex;
+    height: 30px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.pagination {
+    display: flex;
+    margin-top: 10px;
+    gap: 4px;
+    align-items: center;
+}
+
+.active {
+    background: linear-gradient(180deg, #1F2A63 0%, #17002F 100%);
+    color: white;
+    border-radius: 8px;
+}
+
+
